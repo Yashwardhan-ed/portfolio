@@ -10,6 +10,7 @@ const experiences = [
     description:
       'Building AI-powered smart glasses for visually impaired users. Percevia combines computer vision, real-time inference, and embedded AI to provide contextual audio descriptions of the user\'s environment.',
     highlights: [
+      'UiPath AgentHack 2026 Grand Finale Finalist (Percevia Devpost project)',
       'Designed and implemented the computer vision pipeline for object and scene recognition',
       'Built real-time inference system optimized for edge hardware (Raspberry Pi / Jetson Nano)',
       'Led dataset curation: collection, labeling, and augmentation for visually impaired-specific contexts',

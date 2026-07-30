@@ -11,9 +11,16 @@ export default function Hero() {
         className="max-w-2xl"
       >
         {/* Status badge */}
-        <div className="mb-6 inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-border bg-surface-2 text-xs text-text-secondary">
-          <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
-          Open to internships &amp; collaborations
+        <div className="mb-6 flex flex-wrap gap-2">
+          <a
+            href="https://devpost.com/software/percevia-8kb46z?ref_content=my-projects-tab&ref_feature=my_projects"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-amber-500/30 bg-amber-500/10 text-xs text-amber-300 font-medium hover:bg-amber-500/20 transition-colors"
+          >
+            <span className="w-2 h-2 rounded-full bg-amber-400 animate-pulse" />
+            🏆 UiPath AgentHack 2026 Grand Finalist — Percevia
+          </a>
         </div>
 
         {/* Name */}
